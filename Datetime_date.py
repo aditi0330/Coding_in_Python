@@ -1,11 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Apr 13 19:38:27 2020
 
-@author: Lenovo
-"""
-
-#!python3
 
 from datetime import datetime
 from datetime import date
