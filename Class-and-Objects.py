@@ -3,7 +3,7 @@
 # A very basic class would look something like this:
 
 class MyClass:
-    variable = "blah"
+    variable = "aditi"
 
     def function(self):
         print("This is a message inside the class.")
@@ -11,7 +11,7 @@ class MyClass:
 # We'll explain why you have to include that "self" as a parameter a little bit later. First, to assign the above class(template) to an object you would do the following:
 
 class MyClass:
-    variable = "blah"
+    variable = "aditi"
 
     def function(self):
         print("This is a message inside the class.")
@@ -24,7 +24,7 @@ myobjectx = MyClass()
 # To access the variable inside of the newly created object "myobjectx" you would do the following:
 
 class MyClass:
-    variable = "blah"
+    variable = "aditi"
 
     def function(self):
         print("This is a message inside the class.")
@@ -36,7 +36,7 @@ myobjectx.variable
 # So for instance the below would output the string "blah":
 
 class MyClass:
-    variable = "blah"
+    variable = "aditi"
 
     def function(self):
         print("This is a message inside the class.")
@@ -48,7 +48,7 @@ print(myobjectx.variable)
 # You can create multiple different objects that are of the same class(have the same variables and functions defined). However, each object contains independent copies of the variables defined in the class. For instance, if we were to define another object with the "MyClass" class and then change the string in the variable above:
 
 class MyClass:
-    variable = "blah"
+    variable = "aditi"
 
     def function(self):
         print("This is a message inside the class.")
@@ -56,7 +56,7 @@ class MyClass:
 myobjectx = MyClass()
 myobjecty = MyClass()
 
-myobjecty.variable = "yackity"
+myobjecty.variable = "apple"
 
 # Then print out both values
 print(myobjectx.variable)
@@ -66,7 +66,7 @@ print(myobjecty.variable)
 # To access a function inside of an object you use notation similar to accessing a variable:
 
 class MyClass:
-    variable = "blah"
+    variable = "aditi"
 
     def function(self):
         print("This is a message inside the class.")
