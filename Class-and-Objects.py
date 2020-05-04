@@ -33,7 +33,7 @@ myobjectx = MyClass()
 
 myobjectx.variable
 
-# For instance the below would output the string "blah":
+# For instance the below would output the string "aditi":
 
 class MyClass:
     variable = "aditi"
