@@ -58,7 +58,7 @@ myobjecty = MyClass()
 
 myobjecty.variable = "apple"
 
-# Then print out both values
+# Then print out both the values
 print(myobjectx.variable)
 print(myobjecty.variable)
 
