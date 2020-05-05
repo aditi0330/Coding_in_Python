@@ -45,7 +45,7 @@ myobjectx = MyClass()
 
 print(myobjectx.variable)
 
-# You can create multiple different objects that are of the same class(have the same variables and functions defined). However, each object contains independent copies of the variables defined in the class. For instance, if we were to define another object with the "MyClass" class and then change the string in the variable above:
+# You can create multiple different objects that are of the same class(have the same variables and functions defined). However, each object contains independent copies of the variables defined in the class. For instance, if we have to define another object with the "MyClass" class and then change the string in the variable above:
 
 class MyClass:
     variable = "aditi"
